@@ -16,6 +16,8 @@ public class Media {
 	private String title;
 	private String type;
 	private String genre;
+	private int rating;
+	private String review;
 	
 	public int getId() {
 		return id;	
@@ -46,9 +48,29 @@ public class Media {
 	public void setGenre(String genre) {
 		this.genre = genre;
 	}
+	
+	public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	public String getReview() {
+		return review;
+	}
+
+	public void setReview(String review) {
+		this.review = review;
+	}
+
+
+	
 	@Override
 	public String toString() {
 		return "Media [id=" + id + ", type=" + type + ", title=" + title 
-				+ "]";
+				+ ", rating=" + rating + ", review=" + review + "]";
 	}
+
 }

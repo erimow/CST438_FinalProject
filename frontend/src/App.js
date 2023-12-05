@@ -10,7 +10,7 @@ import ListMedia from './components/ListMedia';
 function App() {
   return (
     <div className="App">
-      <h2>Under Review</h2>
+      <img src="https://i.imgur.com/R9xWvkZ.png" height={130} alt="Under Review"></img>
       <BrowserRouter>
           <div>
             <Switch>

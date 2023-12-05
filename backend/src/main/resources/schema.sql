@@ -5,5 +5,6 @@ CREATE TABLE media(
     genre varchar(255) DEFAULT NULL,
     rating int DEFAULT NUll,
     review varchar(255) DEFAULT NULL,
+    picURL varchar(255) DEFAULT NULL,
     PRIMARY KEY (id)
 );

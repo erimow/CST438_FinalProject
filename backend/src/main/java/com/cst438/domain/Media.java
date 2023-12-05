@@ -18,6 +18,7 @@ public class Media {
 	private String genre;
 	private int rating;
 	private String review;
+	private String picURL;
 	
 	public int getId() {
 		return id;	
@@ -67,10 +68,18 @@ public class Media {
 
 
 	
+	public String getPicURL() {
+		return picURL;
+	}
+
+	public void setPicURL(String picURL) {
+		this.picURL = picURL;
+	}
+
 	@Override
 	public String toString() {
 		return "Media [id=" + id + ", type=" + type + ", title=" + title 
-				+ ", rating=" + rating + ", review=" + review + "]";
+				+ ", rating=" + rating + ", review=" + review + "picURL=" + picURL + "]";
 	}
 
 }

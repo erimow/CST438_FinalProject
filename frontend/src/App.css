@@ -14,6 +14,11 @@ body {
   background-color: #ffde97; /* Replace with your desired color code or name */
 }
 
+#textBox {
+  resize: both;
+  width: 300px;
+}
+
 /* Style for table headers */
 th, td {
   border: 1px solid #ddd;

@@ -53,6 +53,7 @@ public class MediaController {
 	                    media.setGenre(updatedMedia.getGenre());
 	                    media.setRating(updatedMedia.getRating());
 	                    media.setReview(updatedMedia.getReview());
+	                    media.setPicURL(updatedMedia.getPicURL());
 	                    // Update other fields as needed
 	                    return mediaRepository.save(media);
 	                })

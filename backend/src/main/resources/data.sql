@@ -1,2 +1,2 @@
-INSERT INTO media (title, type, genre, rating, review)
-VALUES ('Stranger Things', 'TV Show', 'Horror', 9, 'Nostalgic, Bold, Scary, Great show');
+INSERT INTO media (title, type, genre, rating, review, picURL)
+VALUES ('Stranger Things', 'TV Show', 'Horror', 9, 'Nostalgic, Bold, Scary, Great show', 'https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_FMjpg_UX1000_.jpg');

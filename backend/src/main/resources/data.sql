@@ -1,2 +1,3 @@
 INSERT INTO media (title, type, genre, rating, review, picURL)
-VALUES ('Stranger Things', 'TV Show', 'Horror', 9, 'Nostalgic, Bold, Scary, Great show', 'https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_FMjpg_UX1000_.jpg');
+VALUES ('Stranger Things', 'TV Show', 'Horror', 9, 'Nostalgic, Bold, Scary, Great show', 'https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_FMjpg_UX1000_.jpg'),
+       ('SOS', 'Album', 'R&B', 10, 'With SZAs latest release, she has found great success!', 'https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png');

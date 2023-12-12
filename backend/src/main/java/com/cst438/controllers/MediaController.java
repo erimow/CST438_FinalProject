@@ -21,12 +21,6 @@ public class MediaController {
 	
 	@Autowired
 	MediaRepository mediaRepository;
-//	private final MediaRepository mediaRepository;
-	
-//	@Autowired
-//	public MediaController(MediaRepository mediaRepository){
-//		this.mediaRepository = mediaRepository;
-//	}
 	
 	@GetMapping
 	public Iterable<Media> getAllMedia() {
@@ -54,7 +48,6 @@ public class MediaController {
 	                    media.setRating(updatedMedia.getRating());
 	                    media.setReview(updatedMedia.getReview());
 	                    media.setPicURL(updatedMedia.getPicURL());
-	                    // Update other fields as needed
 	                    return mediaRepository.save(media);
 	                })
 	                .orElseThrow(() -> new IllegalArgumentException("Invalid media id: " + id));
